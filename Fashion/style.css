@@ -1,0 +1,142 @@
+.header-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.name-site {
+    color: rgb(0, 0, 100);
+}
+.fashion-dot {
+    color: orange;
+}
+.header-top-search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gainsboro;
+    width: 650px;
+    height: 40px;
+}
+.search-cotegories {
+    margin: 0px 10px 0px 20px;
+}
+.search-cotegories:link {
+    text-decoration: none;
+}
+.search-bar {
+    width: 465px;
+    border: none;
+    outline: none;
+}
+.search-line {
+    display: inline;
+    height: 18px;
+    margin: 10px;
+    border-left: 2px solid gainsboro;
+}
+.search-buttom {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.location-search {
+    font-size: 15px; 
+    padding-top: 5px;
+}
+.main-location {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: 1px solid black;
+    height: 25px;
+}
+.location-bar {
+    border: none;
+}
+.location-bar::placeholder {
+    color: rgb(253, 194, 85);
+}
+.action-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.action-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.action-icon {
+    align-self: center;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.action-p {
+    margin-right: 10px;
+    align-items: center;
+}
+.action-link:link {
+    text-decoration: none;
+}
+.action-link:hover {
+    text-decoration: underline;
+}
+.header-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+}
+.header-nav-navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navigation {
+    margin: 15px;
+    color:  rgb(0, 0, 100);
+}
+.navigation:link {
+    text-decoration: none;
+}
+.navigation:hover {
+    text-decoration: underline;
+    color:  rgb(46, 45, 45);
+}
+.header-nav-ad {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-ad-words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ad-headset-container {
+    align-items: center;
+}
+.ad-headset {
+    font-size: 45px;
+    color:  rgb(0, 0, 100);
+}
+.nav-ad-p {
+    margin-top: 0px;
+}
+.nav-ad-h3 {
+    font-size: 27px;
+    color: rgb(0, 0, 100);
+    margin-bottom: 0px;
+}
+.header-nav-headset {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
