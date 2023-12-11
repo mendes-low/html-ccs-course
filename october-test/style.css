@@ -1,0 +1,87 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.lists {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.list {
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #1E1E1E;
+}
+.list5 {
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #1E1E1E;
+}
+.img1 {
+    height: 30px;
+}
+.button {
+    align-items: center;
+    position: relative;
+}
+.button-back {
+    position: absolute;
+    z-index: -1;
+    height: 110px;
+    width: 110px;
+    bottom: 190px;
+    left: 280px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Poppins';
+    font-weight: Bold;
+    font-size: 54px;
+    color: #1E1E1E;
+}
+.image {
+    position: relative;
+    right: 160px;
+} 
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.card4 {
+    margin-right: 150px;
+}
+.card {
+    position: relative;
+    bottom: 90px;
+    background-color: rgb(249, 248, 248);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px gainsboro;
+    width: 230px;
+    height: 140px;
+    padding: 20px;
+}
+.card-word {
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #1E1E1E;
+}
