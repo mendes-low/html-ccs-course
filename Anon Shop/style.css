@@ -50,14 +50,14 @@
     width: 900px;
     height: 30px;
     background-color: white;
-    border: 1px 0px 1px 1px solid black;
+    border: 1px solid black;
     border-right: none;
     outline: none;
 }
 .search-buttom {
     height: 30px;
     background-color: white;
-    border: 1px 1px 1px 0px solid black;
+    border: 1px solid black;
     border-left: none;
 }
 .header-main-buttoms {
